@@ -19,7 +19,7 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   45/60 Punkten
 #### Punktabzüge für:
 - [_] (10) Elemente passen sich nicht an Fensterbreite an
 - [_] (10) Tags nicht geschlossen oder falsch verschachtelt
@@ -27,6 +27,12 @@ Projekt für Test im UI Modul
 - [_] (5) Kinder-Tags im Code nicht eingerückt
 - [_] (10) Zweckfremde Tags verwendet
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
-- [_] (5) Falsche Datei-Pfade
-- [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
+- [x] (5) Falsche Datei-Pfade
+```diff
+- Weder Logo noch das Hintergrundbild werden geladen, wenn der Ordner anders heißt. Das passiert mit richtigen Pfaden nicht.
+```
+- [x] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
+```diff
+- Alle spans auf der Seite auszuwählen um eine Farbe zu ändern ist zu ungenau
+```
 - [_] (5) Fehlende essentielle Tag-Attribute
